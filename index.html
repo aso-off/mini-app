@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Monkey AI</title>
+    <link
+      rel="android-chrome-192x192"
+      sizes="192x192"
+      href="/mini-app/android-chrome-192x192.png"
+    />
+    <link
+      rel="android-chrome-512x512"
+      sizes="512x512"
+      href="/android-chrome-512x512"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/mini-app/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/mini-app/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/mini-app/favicon-16x16.png" />
+    <link rel="manifest" href="/mini-app/site.webmanifest" />
+    <link rel="icon" href="/mini-app/favicon.ico" />
+
+    <script>
+      // Restore path after GitHub Pages 404.html redirect.
+      // IMPORTANT: preserve window.location.hash — it contains Telegram's
+      // #tgWebAppData=... which the SDK must read on startup.
+      (function () {
+        var p = window.location.search
+          .slice(1)
+          .split("&")
+          .find(function (s) {
+            return s.startsWith("p=");
+          });
+        if (p) {
+          var path = decodeURIComponent(p.slice(2));
+          window.history.replaceState(
+            null,
+            null,
+            "/" + path + window.location.hash,
+          );
+        }
+      })();
+    </script>
+
+    <script
+      defer
+      src="https://direct-analytics.si881.ru/script.js"
+      data-website-id="fbb4c13f-5d24-4a2f-92e7-42382416da62"
+    ></script>
+    <script type="module" crossorigin src="/mini-app/assets/index-Ba0LN1bz.js"></script>
+    <link rel="stylesheet" crossorigin href="/mini-app/assets/index-BuzPGat3.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app"></div>
+  </body>
+</html>
